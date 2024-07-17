@@ -9,7 +9,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
-import logo from "../public/images/logo-1.png";
 
 async function Header() {
   return (
@@ -17,7 +16,7 @@ async function Header() {
       {/* Logo */}
       <Image
         className="rounded-lg"
-        src={logo}
+        src="https://links.papareact.com/b3z"
         width={40}
         height={40}
         alt="logo"
