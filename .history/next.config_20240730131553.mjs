@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "image-web-storage.s3.us-east-1.amazonaws.com",
+        hostname: "image-web-storage.s3.amazonaws.com",
       },
     ],
   },

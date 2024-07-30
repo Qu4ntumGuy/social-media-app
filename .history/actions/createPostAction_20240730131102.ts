@@ -59,8 +59,8 @@ export default async function createPostAction(formData: FormData) {
       // const res = await blockBlobClient.uploadData(imageBuffer);
       const res = await uploadFileToS3(imageBuffer, file_name);
 
-      // image_url = res._response.request.url;
-      image_url = res;
+      image_url = res._response.request.url;
+      image_url = res._response.request.url;
 
       console.log("File uploaded successfully!", image_url);
 
